@@ -14,9 +14,10 @@ $('#mySelect')
 
 
 // select last option
-
+var address
 $(function() {
     $("select option:last").attr("selected", "selected");
+    address.find("option").last().attr("selected", "selected");
 });
 
 // reset form
