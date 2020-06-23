@@ -38,7 +38,7 @@ $('#from-address').append(`
 	`)	
 
 // watch multi elements realtime change
-$('#from-primary-mobile,#from-primary-mobile').on("keyup change",function (e) { 
+$('#from-primary-mobile,#search-from-primary-mobile').on("keyup change",function (e) { 
   // e.preventDefault();
   var primary_from_mobile = $('#from-primary-mobile').val();
   console.log(primary_from_mobile);
